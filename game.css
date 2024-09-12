@@ -3,34 +3,50 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    display: flex;
+    display:flex;
+    flex-direction:column;
     height:100vh;
     width:100vw;
     background-color:white;
     overflow: hidden;
 }
+.img{
+    position:absolute;
+    right:1%;
+    width:19%;
+    height:auto;
+}
 .runner.player1{
+    
     transform: scale(0.7);
-    position: absolute;
+    position: fixed;
     bottom:150px;
     left: -100px;
+    display: inline-flex;
+    flex-direction: row;
 }
 .runner.player2{
     transform: scale(0.7);
     position: absolute;
     bottom:100px;
     left: -100px;
+    display: flex;
+    flex-direction: row;
 }
 .runner.player3{
     transform: scale(0.7);
     position: absolute;
     bottom:30px;
+    display: flex;
+    flex-direction: row;
     left: -100px;
 }
-.runner.player4{
+.player4{
     transform: scale(0.7);
     position: absolute;
     bottom:-50px;
+    display: flex;
+    flex-direction: row;
     left: -100px;
 }
 .runner.player5{
